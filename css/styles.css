@@ -128,6 +128,85 @@ header .carousel-inner .item {
 @media (min-width: 600px) {
   [class*="col-sm"] {
     width: 100%;
+    background-color: #049DAB;
+    -webkit-backface-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+
+
+
+  /* our product */
+#product {
+  height: 100vh;
+}
+#product h5 {
+  padding-top: 80px;
+  color: #049DAB;
+  font-size: 30px;
+}
+#product h6 {
+  color: #049DAB;
+  padding-top: 60px;
+  font-size:15px;
+}
+#product p {
+  font-size: 12px;
+  color: #383838;
+}
+
+
+
+/* cash */
+#cash {
+  height: 100vh;
+  margin-top: 70px;
+
+}
+#cash h5 {
+  padding-top: 80px;
+  color: #049DAB;
+  font-size: 20px;
+
+}
+#cash .card {
+  background-color: #049DAB;
+}
+#cash h6 {
+  color: #ffffff;
+}
+#cash p {
+  color: #383838;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#cash table {
+  margin-left: 180px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  /* margin-right: 100px; */
+}
+#cash table th, td {
+  color: #ffffff;
+}
+
+
+
+
+
+  /* tablets */
+  @media (min-width: 600px) {
+    [class*="col-sm"] {
+      width: 100%;
+    }
+  }
+  /* phones */
+  @media only screen and (max-width: 600px) {
+  }
+  /* laptop and desktop */
+  @media only screen and (min-width: 992px) {
   }
 }
 
