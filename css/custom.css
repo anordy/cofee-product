@@ -1,0 +1,112 @@
+@media (max-width: 780px) {
+    .carousel-caption {
+      top: 100px;
+    }
+    .carousel-caption h1 {
+      font-size: 30px;
+      letter-spacing: 1.2px;
+      font-weight: 600;
+      font-family: merienda;
+    }
+    .carousel-caption p {
+      font-size: 15px;
+      margin-top: 20px;
+      letter-spacing: 1.2px;
+    }
+    .carousel-caption button{
+      margin-left: 50px;
+    }
+    .carousel-caption img {
+      margin-top: 30px;
+    }
+  
+    #about h4 {
+      color: #049DAB;
+      margin-top: 30px;
+      margin-left: 35px;
+      
+    }
+    #about h6 {
+      font-size: 20px;
+      margin-top: 30px;
+      margin-left: 20px;
+      margin-right: 10px;
+      color: rgb(54, 52, 52);
+      font-size: 20px;
+    }
+    #about p {
+    display: none;
+  
+    }
+    #about button {
+      margin-top: 100px;
+      margin-left: 100px;
+    } 
+  
+  }
+  
+  /* tablets */
+  @media (min-width: 600px) {
+  
+  }
+  /* phones */
+  @media only screen and (max-width: 600px) {
+    .carousel-caption {
+        top: 100px;
+      }
+      .carousel-caption h1 {
+        font-size: 30px;
+        letter-spacing: 1.2px;
+        font-weight: 600;
+        font-family: merienda;
+      }
+      .carousel-caption p {
+        font-size: 15px;
+        margin-top: 20px;
+        letter-spacing: 1.2px;
+      }
+      .carousel-caption button{
+        margin-left: 50px;
+      }
+      .carousel-caption img {
+        margin-top: 30px;
+      }
+    
+      #about h4 {
+        color: #049DAB;
+        margin-top: 30px;
+        margin-left: 35px;
+        
+      }
+      #about h6 {
+        font-size: 20px;
+        margin-top: 30px;
+        margin-left: 20px;
+        margin-right: 10px;
+        color: rgb(54, 52, 52);
+        font-size: 20px;
+      }
+      #about p {
+      display: none;
+    
+      }
+      #about button {
+        margin-top: 100px;
+        margin-left: 100px;
+      } 
+    
+  }
+  /* laptop and desktop */
+  @media only screen and (min-width: 992px) {
+
+  }
+
+
+/* phones */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* laptop and desktop */
+@media only screen and (min-width: 992px) {}
+
