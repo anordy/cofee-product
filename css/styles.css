@@ -124,15 +124,11 @@ header .carousel-inner .item {
 #about img {
   height: 100%;
 }
-/* tablets */
-
-
-
-
 
   /* our product */
 #product {
-  height: 100vh;
+  height: 125vh;
+  overflow: hidden;
 }
 #product h5 {
   padding-top: 80px;
@@ -149,12 +145,11 @@ header .carousel-inner .item {
   color: #383838;
 }
 
-
-
 /* cash */
 #cash {
-  height: 80vh;
-  margin-top: 70px;
+  height: 90vh;
+  overflow: hidden;
+  /* margin-top: 70px; */
 
 }
 #cash h5 {
@@ -178,11 +173,33 @@ header .carousel-inner .item {
   margin-left: 180px;
   margin-top: 30px;
   margin-bottom: 50px;
-  /* margin-right: 100px; */
+  
 }
 #cash table th, td {
   color: #ffffff;
 }
+#slider {
+  /* height: 20vh; */
+  /* background-color: gray; */
+}
+.wrapper {
+  height: 70px;
+  border: 1px solid #ddd;
+  display: flex;
+  overflow-x: auto;
+}
+.wrapper::-webkit-scrollbar {
+ /* width: 0; */
+}
+.wrapper .items {
+  min-width: 140px;
+  /* height: 70px; */
+  /* line-height: center; */
+  text-align: center;
+  background-color: #049DAB;
+  padding-top: 10px;
+}
+
 
 
 
