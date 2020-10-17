@@ -1,288 +1,328 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Coffee</title>
-    <!-- bootstrap -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
-    />
 
-    <!-- animate css -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
-    />
-    <!-- custom styles -->
-    <link rel="stylesheet" href="css/styles.css" />
-    <!-- fontawesome icons -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
-      crossorigin="anonymous"
-    />
-  </head>
-  <body>
-    <header>
-      <div class="container menu">
-        <!--================== navigation bar ===================-->
-        <nav class="navbar navbar-expand-md">
-          <div class="container navbar-default">
-            <a class="navbar-brand text-white" href="#"> COFEE GLOBAL LTD</a>
-            <button
-              class="navbar-toggler mr-4 mb-2"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <div class="navbar-toggler-icon">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </div>
-            </button>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coffee</title>
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#"
-                    >HOME <span class="sr-only">(current)</span></a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">ABOUT</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">PRODUCTS</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">CONTACTS</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </div>
+  <!-- animate css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+  <!-- custom styles -->
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/custom.css">
+  <!-- fontawesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+    crossorigin="anonymous" />
+</head>
 
-      <div
-        id="carouselExampleIndicators"
-        class="carousel slide"
-        data-ride="carousel"
-      >
-        <ol class="carousel-indicators">
-          <li
-            data-target="#carouselExampleIndicators"
-            data-slide-to="0"
-            class="active"
-          ></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="carousel-caption d-none d-md-inline">
-              <div class="row">
-                <div class="col-sm-6">
-                  <h1 class="" style="animation-delay: 1s">
-                    African exporting <br />
-                    and importing <br />
-                    made easy.
-                  </h1>
-                  <p class="" style="animation-delay: 1s">
-                    TANIN GLOBAL COMPANY LTD is a trading company mainly dealing
-                    with export of cashew nuts and also intending to diversfy to
-                    cofee export.
-                  </p>
-                        <button class="btn">About Us</button>
-                </div>
-                <div class="col-sm-6">
-                <img src="assets/images/c1.webp" alt="" class="img-fluid">
-                </div>
-              </div>
-            </div>
-            <div class="banner"></div>
-          </div>
-          <div class="carousel-item">
-            <div class="carousel-caption d-none d-md-block">
-                <div class="row">
-                    <div class="col-sm-6">
-                      <h1 class="" style="animation-delay: 1s">
-                        African exporting <br />
-                        and importing <br />
-                        made easy.
-                      </h1>
-                      <p class="" style="animation-delay: 1s">
-                        TANIN GLOBAL COMPANY LTD is a trading company mainly dealing
-                        with export of cashew nuts and also intending to diversfy to
-                        cofee export.
-                      </p>
-                            <button class="btn">About Us</button>
-                    </div>
-                    <div class="col-sm-6">
-                    <img src="assets/images/c1.webp" alt="" class="img-fluid">
-                    </div>
-                  </div>
-              </div>
-            </div>
-            <div class="banner"></div>
-          </div>
-          <div class="carousel-item">
-            <div class="carousel-caption d-none d-md-block">
-                <div class="row">
-                    <div class="col-sm-6">
-                      <h1 class="" style="animation-delay: 1s">
-                        African exporting <br />
-                        and importing <br />
-                        made easy.
-                      </h1>
-                      <p class="" style="animation-delay: 1s">
-                        TANIN GLOBAL COMPANY LTD is a trading company mainly dealing
-                        with export of cashew nuts and also intending to diversfy to
-                        cofee export.
-                      </p>
-                            <button class="btn">About Us</button>
-                    </div>
-                    <div class="col-sm-6">
-                    <img src="assets/images/c1.webp" alt="" class="img-fluid">
-                    </div>
-                  </div>
-            </div>
-            <div class="banner"></div>
+<body>
+  <header>
+    <div class="container menu">
+      <!--================== navigation bar ===================-->
+      <nav class="navbar navbar-expand-md">
+        <div class="container navbar-default">
+          <a class="navbar-brand text-white" href="#"> COFFEE <br> GLOBAL LTD</a>
+          <!-- <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="small-gutters"></span>
+          </button> -->
+
+
+          <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">PRODUCTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CONTACTS</a>
+              </li>
+            </ul>
           </div>
         </div>
+      </nav>
+    </div>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="carousel-caption d-sm-block d-md-block">
+            <div class="row">
+              <div class="col-sm-12 col-md-6">
+                <h1 class="" style="animation-delay: 1s">
+                  African exporting <br />
+                  and importing <br />
+                  made easy.
+                </h1>
+                <p class="" style="animation-delay: 1s">
+                  TANIN GLOBAL COMPANY LTD is a trading company mainly dealing
+                  with export of cashew nuts and also intending to diversfy to
+                  cofee export.
+                </p>
+                <button class="btn">About Us</button>
+              </div>
+              <div class="col-sm-12 col-md-6 ">
+                <img src="assets/images/k1.png" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="banner"></div>
+        </div>
+        <div class="carousel-item">
+          <div class="carousel-caption d-sm-block d-md-block">
+            <div class="row">
+              <div class="col-sm-12 col-md-6">
+                <h1 class="" style="animation-delay: 1s">
+                  African exporting <br />
+                  and importing <br />
+                  made easy.
+                </h1>
+                <p class="" style="animation-delay: 1s">
+                  TANIN GLOBAL COMPANY LTD is a trading company mainly dealing
+                  with export of cashew nuts and also intending to diversfy to
+                  cofee export.
+                </p>
+                <button class="btn">About Us</button>
+              </div>
+              <div class="col-sm-12 col-md-6">
+                <img src="assets/images/k5.png" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="banner"></div>
+        </div>
+        <div class="carousel-item">
+          <div class="carousel-caption d-sm-block d-md-block">
+            <div class="row">
+              <div class="col-sm-6">
+                <h1 class="" style="animation-delay: 1s">
+                  African exporting <br />
+                  and importing <br />
+                  made easy.
+                </h1>
+                <p class="" style="animation-delay: 1s">
+                  TANIN GLOBAL COMPANY LTD is a trading company mainly dealing
+                  with export of cashew nuts and also intending to diversfy to
+                  cofee export.
+                </p>
+                <button class="btn">About Us</button>
+              </div>
+              <div class="col-sm-6">
+                <img src="assets/images/k6.png" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="banner"></div>
+        </div>
       </div>
-    </header>
+    </div>
+
+    </div>
+    </div>
+  </header>
+
+  <!-- about -->
+  <section id="about">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="assets/images/k6.jpg" alt="" class="img-fluid">
+      </div>
+      <div class="col-md-6">
+        <div class="container">
+          <h4 class="display-5 ">
+            ABOUT TANIN GLOBAL LTD
+
+          </h4>
+
+          <h6 class="display-6">
+            TANIN GLOBAL COMPANY LTD <br>
+            is a trading company mainly dealing <br>
+            with export of agro commodities and <br>
+            import of agricultural inputs.
+
+          </h6>
+
+          <p>
+            Also the company is engagingin supply of merchandise including, <br>
+            Agriculture input such as gunny bags , pestcides etc.The company <br>
+            was duly incoperated in the year 2017 and is managed by two <br>
+            qualified directors.
+          </p>
+
+          <p>
+            In addition , TANIN GLOBAL COMPANY LTD directors are <br>
+            expirience counterparts in trading and supplies busness and well <br>
+            exposed in management of busness both medium and large busness.
+          </p>
+
+          <button class="btn">Read More</button>
+        </div>
+
+      </div>
+    </div>
+  </section>
 
 
-    <!-- products -->
-    <section id="product">
-     <div class="container">
+  <!-- products -->
+  <section id="product">
+    <div class="container">
       <h5 class="display-5 text-center">
         OUR PRODUCTS
       </h5>
       <p class="text-center">
-        We are able to offer our products at very competitive prices in the market and at good volumes. We take extra care <br>
-        to ensure that the products meet the quality standards of our customers. We are very ethical and  believe <br>
-        that long term busness  relationships are important for a company's success and we are willing to execute <br>
+        We are able to offer our products at very competitive prices in the market and at good volumes. We take extra
+        care <br>
+        to ensure that the products meet the quality standards of our customers. We are very ethical and believe <br>
+        that long term busness relationships are important for a company's success and we are willing to execute <br>
         anything in our means possible to archieve that.
       </p>
       <div class="row pt-5">
-        <div class="col-sm-6 col-md-3">
+        <div class="col-sm-6 col-md-6 col-lg-3">
           <img src="assets/images/c3.jpg" height="50%" width="100%" alt="" class="img-fluid">
           <h6 class="display-6 pt-3">NUTS</h6>
           <p>Cashewnuts Rcn, Cashewnuts <br> Kernels, Ground nuts</p>
         </div>
-        <div class="col-sm-6 col-md-3">
+        <div class="col-sm-6 col-md-6 col-lg-3">
           <img src="assets/images/c1.jpg" height="50%" width="100%" alt="" class="img-fluid">
           <h6 class="display-6 pt-3">COFFEE</h6>
           <p>Robusta Arabica</p>
-        
+
         </div>
-        <div class="col-sm-6 col-md-3">
+        <div class="col-sm-6 col-md-6 col-lg-3">
           <img src="assets/images/c6.jpg" height="50%" width="100%" alt="" class="img-fluid">
           <h6 class="display-6 pt-3">BEANS</h6>
           <p>Red kidney , Soya white <br> Beans, Yellow Beans</p>
-        
+
         </div>
-        <div class="col-sm-6 col-md-3">
+        <div class="col-sm-6 col-md-6 col-lg-3">
           <img src="assets/images/c1.jpg" height="50%" width="100%" alt="" class="img-fluid">
           <h6 class="display-6 pt-3">SEEDS</h6>
           <p>Sasame seed sunflower <br> Seeds</p>
-        
+
         </div>
-        <div class="col-sm-6 col-md-3">
+
+
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6 col-md-6 col-lg-3">
           <img src="assets/images/c5.jpg" height="50%" width="100%" alt="" class="img-fluid">
           <h6 class="display-6 pt-3">SPICES</h6>
           <p>Chickpeas pigeon , <br> please Green mong</p>
-        
+
         </div>
-        <div class="col-sm-6 col-md-3">
+        <div class="col-sm-6 col-md-6 col-lg-3">
           <img src="assets/images/c7.jpg" height="50%" width="100%" alt="" class="img-fluid">
           <h6 class="display-6 pt-3">COCOA</h6>
           <p>Proves carrdomon peper</p>
-        
+
         </div>
-        <div class="col-sm-6 col-md-3">
+        <div class="col-sm-6 col-md-6 col-lg-3">
           <img src="assets/images/c8.jpg" height="50%" width="100%" alt="" class="img-fluid">
           <h6 class="display-6 pt-3">GRAINS</h6>
           <p>Maize & Rice</p>
-        
-        </div>
-       
-      </div>
-     </div>
-    </section>
 
-    <!-- cahewnuts -->
-    <section id="cash">
-      <div class="container">
-        <h5 class="display-5 text-center">
-          CASHEWNUTS RCN
-        </h5>
-        <P class="text-center">
-          Leveraging over the skills of our qualified team of proffetionals, we are instrumental in offering <br>
-          Wide Range of Raw Cashew Nuts.
-        </P>
-        <div class="card">
-          <h6 class="text-center display-5 pt-5">TANDAHIMBA & NEWALA</h6>
-
-      <div class="container">
-       <div class="row">
-         <div class="col-sm-4 col-md-8">
-          <table class="table table-bordered">
-            <thead>
-              <tr>
-                <th scope="col">S/N</th>
-                <th scope="col">OUT  TURN</th>
-                <th scope="col">NUT  COUNT</th>
-                <th scope="col">MOISTURE  CONTENT</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <th scope="row">1</th>
-                <td>50-53 LBS</td>
-                <td>160-190</td>
-                <td>8-10%</td>
-              </tr>
-          
-            </tbody>
-          </table>
-         </div>
-       </div>
-      </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
 
-    <section id="project">
-      
-    </section>
 
-    <!-- bootstrap js  -->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <!-- cashewnuts  -->
+  <section id="cash">
+    <div class="container">
+      <h5 class="display-5 text-center">
+        CASHEWNUTS RCN
+      </h5>
+      <P class="text-center">
+        Leveraging over the skills of our qualified team of proffetionals, we are instrumental in offering <br>
+        Wide Range of Raw Cashew Nuts.
+      </P>
+      <div class="card">
+        <h6 class="text-center display-5 pt-5">TANDAHIMBA & NEWALA</h6>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4 col-md-8">
+              <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <th scope="col">S/N</th>
+                    <th scope="col">OUT TURN</th>
+                    <th scope="col">NUT COUNT</th>
+                    <th scope="col">MOISTURE CONTENT</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>50-53 LBS</td>
+                    <td>160-190</td>
+                    <td>8-10%</td>
+                  </tr>
+
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="slider">
+
+    <div class="wrapper">
+      <div class="items">
+        <span class="carousel-control-prev-icon"></span>
+
+      </div>
+      <div class="items">Maize</div>
+      <div class="items">Cofee</div>
+      <div class="items">Coconuts</div>
+      <div class="items">Cashewnuts</div>
+      <div class="items">Beans</div>
+      <div class="items">Cofee</div>
+      <div class="items">Coconuts</div>
+      <div class="items">Cashewnuts</div>
+      <div class="items">Cofee</div>
+      <div class="items">Coconuts</div>
+      <div class="items">Cashewnuts</div>
+      <div class="items">
+        <span class="carousel-control-next-icon"></span>
+
+      </div>
+    </div>
+
+  </section>
+
+
+
+  <!-- bootstrap js  -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+  </script>
+</body>
+
 </html>

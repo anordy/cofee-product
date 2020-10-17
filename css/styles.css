@@ -1,112 +1,134 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  html,
-  body {
-    margin: 0;
-    padding: 0;
-    font-family: serif;
-    background-color: rgb(239, 242, 247);
-    width: 100%;
-  }
-  header .carousel-inner .item {
-    height: 100vh;
-  }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-  .menu {
-    position: relative;
-    z-index: 9999;
-    width: 90%;
-  }
-  
-  .navbar-default {
-    background-color: #049DAB;
-    top: 50px;
-    height: 70px;
-    z-index: 999;
-    position: absolute;
-  }
-  
-  .nav-item .nav-link {
-    margin-left: 50px;
-    font-size: 15px;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: serif;
+  background-color: rgb(239, 242, 247);
+  width: 100%;
+}
 
-    letter-spacing: normal;
-    font-weight: 500px;
-    text-transform: uppercase;
-    position: relative;
-  }
-  
-  .navbar-brand {
-    background-color: #049DAB;
-    padding-top: 15px;
-    padding-bottom: 18px;
-    padding-left: 10px;
-    padding-right: 15px;
-    margin-left: -15px;
-    border-radius: 10px;
-  }
-  .navbar-toggler-icon {
-    background-color: rgb(133, 145, 69);
-  }
-  
-  .navbar-nav a {
-    color: white;
-    font-size: 15px;
-  }
-  .navbar-nav a:hover {
-    color: rgb(97, 95, 11);
-  }
-  
-  .navbar-collapse {
-    opacity: 0.9;
-    text-align: center;
-    vertical-align: left;
-    margin-left: -15px;
-  }
-  .carousel-caption {
-    top: 180px;
-    text-align: left;
-  }
-  .carousel-caption h1 {
-    font-size: 50px;
-    letter-spacing: 1.5px;
-    font-weight: 900;
-    font-family: merienda;
-  }
-  .carousel-caption p {
-    font-size: 14px;
-    margin-top: 35px;
-    letter-spacing: 1.6px;
-  }
-  .carousel-caption button {
-      margin-top: 30px;
-      background-color: #2D580B;
-      color: #ffffff;
-      border-radius: 40px;
-      padding-left: 40px;
-      padding-top: 5px;
-      padding-right: 40px;
-      padding-bottom: 5px;
-  }
-  .banner {
-    height: 100vh;
-    width: 100%;
-    background-color: #049DAB;
-    -webkit-backface-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-  }
+header .carousel-inner .item {
+  height: 100vh;
+}
+
+.menu {
+  position: relative;
+  z-index: 9999;
+  width: 90%;
+}
+
+.navbar-default {
+  background-color: #049DAB;
+  top: 50px;
+  height: 70px;
+  z-index: 999;
+  position: absolute;
+}
+
+.nav-item .nav-link {
+  margin-left: 50px;
+  font-size: 15px;
+  letter-spacing: normal;
+  font-weight: 500px;
+  text-transform: uppercase;
+  position: relative;
+}
+.navbar {
+  margin-right: 70px;
+}
+.navbar-brand {
+  background-color: #049DAB;
+  margin-left: 70px;
+}
+.navbar-nav a {
+  color: white;
+  font-size: 15px;
+}
+
+.navbar-nav a:hover {
+  color: rgb(10, 10, 10);
+}
 
 
 
+.carousel-caption {
+  top: 180px;
+  text-align: left;
+}
+
+.carousel-caption h1 {
+  font-size: 50px;
+  letter-spacing: 1.5px;
+  font-weight: 900;
+  font-family: merienda;
+}
+
+.carousel-caption p {
+  font-size: 14px;
+  margin-top: 35px;
+  letter-spacing: 1.6px;
+}
+
+.carousel-caption button {
+  margin-top: 30px;
+  background-color: #2D580B;
+  color: #ffffff;
+  border-radius: 40px;
+  padding-left: 40px;
+  padding-top: 5px;
+  padding-right: 40px;
+  padding-bottom: 5px;
+}
+
+.banner {
+  height: 100vh;
+  width: 100%;
+  background-color: #049DAB;
+  -webkit-backface-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+
+/* about */
+#about {
+  height: 100vh;
+  background-color: #ffffff;
+}
+#about h4 {
+  color: #049DAB;
+  margin-top: 80px;
+}
+#about h6 {
+  font-size: 25px;
+  margin-top: 30px;
+  color: rgb(54, 52, 52);
+}
+#about button {
+  margin-top: 25px;
+  background-color: #2D580B;
+  color: #ffffff;
+  border-radius: 40px;
+  padding-left: 40px;
+  padding-top: 5px;
+  padding-right: 40px;
+  padding-bottom: 5px;
+}
+#about img {
+  height: 100%;
+}
 
   /* our product */
 #product {
-  height: 100vh;
+  height: 125vh;
+  overflow: hidden;
 }
 #product h5 {
   padding-top: 80px;
@@ -123,12 +145,11 @@
   color: #383838;
 }
 
-
-
 /* cash */
 #cash {
-  height: 100vh;
-  margin-top: 70px;
+  height: 90vh;
+  overflow: hidden;
+  /* margin-top: 70px; */
 
 }
 #cash h5 {
@@ -152,11 +173,30 @@
   margin-left: 180px;
   margin-top: 30px;
   margin-bottom: 50px;
-  /* margin-right: 100px; */
+  
 }
 #cash table th, td {
   color: #ffffff;
 }
+
+.wrapper {
+  height: 70px;
+  border: 1px solid #ddd;
+  display: flex;
+  overflow-x: auto;
+}
+/* .wrapper::-webkit-scrollbar {
+ width: 0;
+} */
+.wrapper .items {
+  min-width: 140px;
+  /* height: 70px; */
+  /* line-height: center; */
+  text-align: center;
+  background-color: #049DAB;
+  padding-top: 10px;
+}
+
 
 
 #project {
@@ -168,16 +208,3 @@
 
 
 
-  /* tablets */
-  @media (min-width: 600px) {
-    [class*="col-sm"] {
-      width: 100%;
-    }
-  }
-  /* phones */
-  @media only screen and (max-width: 600px) {
-  }
-  /* laptop and desktop */
-  @media only screen and (min-width: 992px) {
-  }
-  
