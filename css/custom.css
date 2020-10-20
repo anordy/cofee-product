@@ -1,4 +1,5 @@
 @media (max-width: 780px) {
+  
     .carousel-caption {
       top: 100px;
     }
@@ -6,15 +7,17 @@
       font-size: 30px;
       letter-spacing: 1.2px;
       font-weight: 600;
+      text-align: center;
       font-family: merienda;
     }
     .carousel-caption p {
       font-size: 15px;
       margin-top: 20px;
+      text-align: center;
       letter-spacing: 1.2px;
     }
     .carousel-caption button{
-      margin-left: 50px;
+      margin-left: 150px;
     }
     .carousel-caption img {
       margin-top: 30px;
@@ -23,13 +26,15 @@
     #about h4 {
       color: #049DAB;
       margin-top: 30px;
-      margin-left: 35px;
-      
+      text-align: center;      
+    }
+    #about img {
+      width: 100%;
     }
     #about h6 {
       font-size: 20px;
       margin-top: 30px;
-      margin-left: 20px;
+      text-align: center;
       margin-right: 10px;
       color: rgb(54, 52, 52);
       font-size: 20px;
@@ -39,8 +44,8 @@
   
     }
     #about button {
-      margin-top: 100px;
-      margin-left: 100px;
+      margin-top: 25px;
+      margin-left: 165px;
     } 
     
 
@@ -58,7 +63,7 @@
   }
   /* phones */
   @media only screen and (max-width: 600px) {
-    .carousel-caption {
+    /* .carousel-caption {
         top: 100px;
       }
       .carousel-caption h1 {
@@ -102,7 +107,7 @@
         margin-left: 100px;
       } 
     
-  }
+  } */
   /* laptop and desktop */
   @media only screen and (min-width: 992px) {
 
